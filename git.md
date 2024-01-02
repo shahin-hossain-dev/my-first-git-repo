@@ -8,6 +8,9 @@
 - git change to Main branch: git branch -M main 
 - git remote repo add: git remote add origin repo-url
 - git push to github server: git push -u origin main
+- git remote url/location view --> git remote -v
+- check git status --> git status
+
 # git config setup
 
 - set email: git config --global user.email "example@email.com"
@@ -17,7 +20,9 @@
 - config user name check: git config user.name
 - config user email check: git config user.email
 
+# git connect to github with token 
+- github profile > setting > developer settings > personal access token > token classic > generate a token > put down at local option.
 
-
-- command abbreviation 
-cd -> change directory
+# command abbreviation 
+- cd -> change directory
+- config -l -> config -list
